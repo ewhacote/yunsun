@@ -7,7 +7,6 @@ def solution(r1, r2):
     
     for i in range(1, r2 + 1):
         # 반지름 제곱해서 가로 제곱을 빼고 루트 씌워서 세로 확인
-        # 이 두개 사이에 정수가 있는지.. 어떻게 확인하지
         big_y = floor((r2**2 - i**2)**(1/2))
         if i >= r1:
             small_y = 0
