@@ -2,7 +2,6 @@ from math import ceil, floor
 
 def solution(r1, r2):
     # 제 1사분면 위의 점의 갯수를 구하기
-    # 일단 두개
     answer = 0
     
     for i in range(1, r2 + 1):
